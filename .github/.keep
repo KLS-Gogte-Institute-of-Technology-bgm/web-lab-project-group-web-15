@@ -1,0 +1,55 @@
+<DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title> Online Pizza Order Form</title>
+<link rel="stylesheet" href="onlinepizzaorder.css">
+</head>
+<body bgcolor="yellow">
+<h1><i>Online Pizza Order Form</i><br>
+<h1 align="center">
+<form name="form">
+<b>Customer Name </b> <input type="text" size=20/>&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Phone Number </b> <input type="text" size=20/>
+<table align="center">
+<tr>
+<th>Pizza Choice</th>
+<th>Quantity</th>
+<th>Unit Price</th>
+<th>Total Price</th>
+</tr>
+<tr>
+<td><input type="checkbox"value="Pepperoni">Pepperoni</input></td>
+<td><input type="text" size=10></input></td>
+<td><input type="text" value="325" readonly size=10></td>
+<td><input type="text" size=10 disabled></td>
+</tr>
+</tr>
+<tr>
+<td><input type="checkbox"value="Chicken Loaded">Chicken Loaded</input></td>
+<td><input type="text" size=10></input></td>
+<td><input type="text" value="310" readonly size=10></td>
+<td><input type="text" size=10 disabled></td>
+</tr>
+</tr>
+<tr>
+<td><input type="checkbox"value="Paneer Makhani">Paneer Makhani</input></td>
+<td><input type="text" size=10></input></td>
+<td><input type="text" value="245" readonly size=10></td>
+<td><input type="text" size=10 disabled></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Total</td>
+<td><input type="text" size=10 disabled></td>
+</tr>
+<tr>
+<td colspam=2><input type="Submit" value="Calculate Total Order"></input></td>
+<td colspam=2><input type="Reset" value="Clear Order"></input></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
